@@ -33,11 +33,11 @@ class HBNBCommand(cmd.Cmd):
         pass
 
     def do_quit(self, arg):
-        """ Close program and saves safely data """
+        """ Closes program and saves safely data """
         return True
 
     def do_EOF(self, arg):
-        """ Close program and saves safely data, when
+        """ Closes program and saves safely data, when
         user input is CTRL + D
         """
         print("")
